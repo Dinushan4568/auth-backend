@@ -16,16 +16,9 @@ build/
 *.tsbuildinfo
 
 # ==========================================
-# Environment Variables & Secrets
+# Environment Variables & Secrets (Tracked)
 # ==========================================
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.env*.local
-!.env.example
-!.env.docker.example
+# .env is tracked per user request
 
 # ==========================================
 # Logs
